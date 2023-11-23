@@ -1,4 +1,4 @@
-# GenAI-Bard
+# GenAI-Bard AI Chat
 
   * Install BARD AI on your Codespace instance:
   
@@ -16,4 +16,14 @@
      * Step 3: To install Bard API:
         * $>pip install Bard
         * $>pip install bardapi
+
+   * How to extract ##Secure-PSID## token
+      * Requirement: (for Canada) VPN connection to host outside of Canada.
+      * Open browser to BardAI (https://bard.google.com)
+      * View source to search for PSID
+      * Copy PSID and use in the code for token='[PSID from browser]'
+
+
+  * Execute python code:
+      * $>python ./bard-api.py
 
